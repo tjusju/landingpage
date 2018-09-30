@@ -1,0 +1,33 @@
+.navigation-container {
+    margin-top: 20px;
+    user-select: none;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-list {
+    columns: 1;
+    column-width: auto;
+    letter-spacing: 5px;
+}
+
+.navigation-item, .menu-button {
+    margin-bottom: 5px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 0 16px 0 16px;
+
+    padding: 20px 0;
+
+    opacity: 0.3;
+    transition: 0.2s;
+}
+
+.navigation-item:hover, .menu-button:hover {
+    opacity: 1;
+    background: rgba(255,255,255,0.4);
+    color: black;
+    letter-spacing: 2px;
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 16px 0 16px 0;
+}

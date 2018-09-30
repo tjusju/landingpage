@@ -1,0 +1,7 @@
+.app {
+  width: 100%;
+  margin: auto;
+
+  columns: 3;
+  column-width: 200px;
+}
